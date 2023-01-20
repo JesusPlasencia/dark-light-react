@@ -49,7 +49,7 @@ const ToggleTheme = () => {
                     }
                 </div>
                 <SvgIcon
-                    iconName="3-dots"
+                    iconName="tooth"
                     svgProp={{
                         className:
                             'w-6 h-6 ml-2 sm:w-7 sm:h-7 lg:w-8 lg:h-8 dark:fill-white'

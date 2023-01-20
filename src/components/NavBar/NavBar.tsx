@@ -4,7 +4,7 @@ import './index.css'
 
 const NavBar = () => {
   return (
-    <nav className='border border-gray-900 ease-out duration-200 bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900'>
+    <nav className='border border-gray-900 ease-out duration-150 bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900 dark:border-0'>
       <div className='flex flex-wrap items-center justify-between mx-auto'>
         <SvgIcon
           iconName='bars'
