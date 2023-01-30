@@ -1,3 +1,5 @@
 import { ToggleTheme } from './ToggleTheme'
+import { Title } from './Title'
+import { Bar } from './Bar'
 
-export default ToggleTheme
+export { ToggleTheme, Title, Bar }

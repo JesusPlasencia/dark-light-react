@@ -1,4 +1,5 @@
 import './App.css'
+import Landing from './components/Landing'
 
 import NavBar from './components/NavBar'
 
@@ -8,8 +9,9 @@ const App = () => {
     <>
       <div className='fixed'>
         <NavBar />
-        <div className='w-[100vw] h-[100vh] grid place-content-center bg-gradient-to-r from-black via-blue-900 to-black'>
-        </div>
+        <Landing />
+        {/* <div className='w-[100vw] h-[100vh] grid place-content-center bg-gradient-to-r from-black via-blue-900 to-black'>
+        </div> */}
       </div>
     </>
   )
