@@ -12,7 +12,7 @@ const NavBar = () => {
   }
 
   return (
-    <nav className='border border-t-0 border-gray-900 ease-out duration-150 bg-white px-2 py-2.5 sm:px-4 dark:bg-gray-900 dark:border-0 dark:border-t-0'>
+    <nav className='w-[100vw] border border-t-0 border-gray-900 ease-out duration-150 bg-white px-2 py-2.5 sm:px-4 dark:bg-gray-900 dark:border-0 dark:border-t-0'>
       <div className='flex flex-wrap items-center justify-between mx-auto'>
         <Bar handleClick={handleLateral} />
         <LateralBar isVisible={isVisibleLateral} />
