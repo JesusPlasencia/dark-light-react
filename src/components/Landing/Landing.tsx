@@ -6,7 +6,7 @@ const Landing = () => {
                 <p className="font-normal text-lg">FullStack Developer</p>
             </div>
             <div className='w-[40vw] h-[20vh] my-4'>
-                <img className='rounded-full' src="/src/assets/images/profile.jpg" alt="Profile" />
+                <img className='rounded-full' src="/src/assets/icons/profile.jpg" alt="Profile" />
             </div>
             <div className='w-[75vw] h-[55vh] mt-4'>
                 <section className='rounded-md bg-yellow-200 text-justify p-4 my-2'>
